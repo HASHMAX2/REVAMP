@@ -1,0 +1,35 @@
+<template>
+    <lightning-card  variant="Narrow"  title="Hello" icon-name="standard:account">
+        
+        <lightning-input type="text" variant="standard" name="one" onchange={handleChnage} label="label" placeholder="type here..." >
+            
+        </lightning-input>
+        <lightning-input type="text" variant="standard" name="two" onchange={handleChnage} label="label" placeholder="type here..." >
+            
+        </lightning-input>
+        <lightning-input type="text" variant="standard" name="percetage" onkeyup={handleChnagepercetage} label="label" value={percentage} placeholder="type here..." >
+            
+        </lightning-input>
+<lightning-card  variant="Narrow"  title="Hello" icon-name="standard:account">
+    
+</lightning-card>
+
+        <div>Country {country}</div>
+        <div>Profile {Profile.name} {Profile.age}</div>
+        <div> getter div {getterVal}</div>
+        <template for:each={cars} for:item="car">
+            <div key={car}>Car name is {car}</div>
+        </template>        
+    </lightning-card>
+
+</lightning-card>
+
+<lightning-card>
+<lightning-button  label="shadow Button" title="titleName" class="shadowbtn" >
+
+</lightning-button>
+</lightning-card>
+
+
+    
+</template>

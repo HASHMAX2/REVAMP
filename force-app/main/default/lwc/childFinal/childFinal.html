@@ -1,0 +1,14 @@
+<template>
+<template if:true={profileInfo}>
+    <div> <strong>Name</strong> {getterDemo.name}</div>
+    <div> <strong>Age</strong> {getterDemo.age}</div>
+    <slot name="first"></slot>
+    <div style={getterDemo.Style}> <strong>location</strong> {getterDemo.location}</div>
+    <slot></slot>
+
+
+</template>
+    
+    
+    
+</template>
